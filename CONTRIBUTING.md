@@ -19,6 +19,7 @@
 | `docs/06-行业案例` | 行业案例（Phase 2） |
 | `docs/07-外文精读` | 外文精华精读（Phase 2） |
 | `docs/08-工具箱与清单` | Checklist / 工作模板说明 |
+| `docs/09-面试题` | 口述题库；按轨道分子目录（如 `1.LLM和AI基础/`），题干与参考答法原样入库；新增轨道时同步更新该目录 `README.md` 与根 `_sidebar.md` |
 | `docs/templates/` | 可直接复制的模板正文 |
 | `references/sources.md` | 全库引用总表 |
 

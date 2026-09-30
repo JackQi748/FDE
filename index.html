@@ -7,6 +7,7 @@
   <meta name="description" content="中文 FDE（Forward Deployed Engineer）学习与面试知识库：角色认知、交付方法论、AI 落地、面试通关、行业案例与外文精读。" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
   <style>
     :root {
       --theme-color: #0f766e;
@@ -14,11 +15,21 @@
     .app-name-link img { max-height: 28px; }
     .markdown-section { max-width: 860px; }
     .sidebar-nav ul li strong { color: #0f766e; }
+    .markdown-section .mermaid {
+      text-align: center;
+      overflow-x: auto;
+      margin: 1em 0;
+    }
   </style>
 </head>
 <body>
   <div id="app">加载中…</div>
+  <!-- Docsify 暂不支持 Mermaid 异步渲染，官方文档锁定到 v9.3.0 -->
+  <script src="//cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.min.js"></script>
   <script>
+    var mermaidId = 0;
+    mermaid.initialize({ startOnLoad: false, securityLevel: 'loose' });
+
     window.$docsify = {
       name: 'FDE 知识库',
       repo: 'https://github.com/VanGong1999/FDE',
@@ -40,6 +51,20 @@
         nextText: '下一篇',
         crossChapter: true,
         crossChapterText: true
+      },
+      markdown: {
+        renderer: {
+          code: function (code, lang) {
+            if (lang === 'mermaid') {
+              return (
+                '<div class="mermaid">' +
+                mermaid.render('mermaid-svg-' + mermaidId++, code) +
+                '</div>'
+              );
+            }
+            return this.origin.code.apply(this, arguments);
+          }
+        }
       }
     }
   </script>
@@ -50,5 +75,6 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@1.4.4/dist/docsify-katex.js"></script>
 </body>
 </html>

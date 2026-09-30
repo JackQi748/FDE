@@ -113,7 +113,8 @@
 - [精读目录](docs/07-外文精读/README.md)
 - [Exponent 2026](docs/07-外文精读/01-Exponent-FDE面试2026指南.md) · [Decomposition](docs/07-外文精读/02-Decomposition面试框架与操练.md) · [Palantir](docs/07-外文精读/03-Palantir-FDSE面试指南.md) · [OpenAI](docs/07-外文精读/04-OpenAI-FDE面试指南.md)
 - [Anthropic](docs/07-外文精读/05-Anthropic-Applied-AI面试侧重点.md) · [Careers 对照](docs/07-外文精读/06-各公司Careers岗位描述对照.md) · [OWASP LLM](docs/07-外文精读/07-OWASP-LLM应用风险Top10.md)
-- [Awesome FDE 课程体系总览](docs/07-外文精读/08-Awesome-FDE课程体系总览.md)
+- [Awesome FDE 课程体系总览](docs/07-外文精读/08-Awesome-FDE课程体系总览.md) · [SPC 与多家 FDE 现场声音](docs/07-外文精读/09-SPC与多家FDE现场声音.md)
+- [FDEInterviews 公开站点地图](docs/07-外文精读/10-FDEInterviews公开站点地图.md)
 
 ### 08 工具箱与模板
 
@@ -121,6 +122,11 @@
   - [发现访谈提纲](docs/08-工具箱与清单/发现访谈提纲.md) · [POC 验收表](docs/08-工具箱与清单/POC验收表.md) · [Go-Live](docs/08-工具箱与清单/生产Go-Live清单.md) · [周报](docs/08-工具箱与清单/周报模板.md)
   - [现场勘察与范围文档](docs/08-工具箱与清单/现场勘察与范围文档.md)
 - [可复制模板](docs/templates/)
+
+### 09 面试题
+
+- [题目录](docs/09-面试题/README.md)
+- [1. LLM和AI基础](docs/09-面试题/README.md#1-llm和ai基础)（20 题：上下文窗口、生成循环、Transformer、Token、RAG/微调选型、幻觉、工具调用、延迟等）
 
 ### 引用总表
 

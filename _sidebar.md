@@ -100,6 +100,8 @@
 * [Careers 对照](docs/07-外文精读/06-各公司Careers岗位描述对照.md)
 * [OWASP LLM Top 10](docs/07-外文精读/07-OWASP-LLM应用风险Top10.md)
 * [Awesome FDE 课程总览](docs/07-外文精读/08-Awesome-FDE课程体系总览.md)
+* [SPC 与多家 FDE 现场声音](docs/07-外文精读/09-SPC与多家FDE现场声音.md)
+* [FDEInterviews 公开站点地图](docs/07-外文精读/10-FDEInterviews公开站点地图.md)
 
 **08 工具箱**
 
@@ -109,6 +111,31 @@
 * [Go-Live 清单](docs/08-工具箱与清单/生产Go-Live清单.md)
 * [周报模板](docs/08-工具箱与清单/周报模板.md)
 * [现场勘察与范围文档](docs/08-工具箱与清单/现场勘察与范围文档.md)
+
+**09 面试题**
+
+* [题目录](docs/09-面试题/README.md)
+* [1. LLM和AI基础](docs/09-面试题/README.md?id=1-llm和ai基础)
+  * [01 上下文窗口](docs/09-面试题/1.LLM和AI基础/1.什么是上下文窗口.md)
+  * [02 生成回复时发生什么](docs/09-面试题/1.LLM和AI基础/2.大语言模型生成回复时发生什么.md)
+  * [03 Transformer 梳理](docs/09-面试题/1.LLM和AI基础/3.从头到尾梳理transformer.md)
+  * [04 Token 与分词](docs/09-面试题/1.LLM和AI基础/4.token是什么FDE为何关注分词.md)
+  * [05 Temperature / top-p](docs/09-面试题/1.LLM和AI基础/5.解释temperature和top-p.md)
+  * [06 Embedding 语义搜索](docs/09-面试题/1.LLM和AI基础/6.什么是embedding语义搜索.md)
+  * [07 点积与余弦相似度](docs/09-面试题/1.LLM和AI基础/7.点积是注意力机制与嵌入向量中的相似度得分.md)
+  * [08 基础 vs 指令模型](docs/09-面试题/1.LLM和AI基础/8.基础指令模型区别.md)
+  * [09 LLM 幻觉](docs/09-面试题/1.LLM和AI基础/9.什么是LLM幻觉.md)
+  * [10 精确率 vs 召回率](docs/09-面试题/1.LLM和AI基础/10.分类器精确率和召回率选择.md)
+  * [11 Prompt / RAG / 微调](docs/09-面试题/1.LLM和AI基础/11.prompt-rag微调选择.md)
+  * [12 超出上下文窗口](docs/09-面试题/1.LLM和AI基础/12.超出上下文窗口.md)
+  * [13 向量搜索准确性](docs/09-面试题/1.LLM和AI基础/13.rag搜索准确性.md)
+  * [14 幻觉缓解方案](docs/09-面试题/1.LLM和AI基础/14.幻觉缓解方案.md)
+  * [15 微调 vs 少样本](docs/09-面试题/1.LLM和AI基础/15.微调何时优于少样本提示.md)
+  * [16 Lost in the Middle](docs/09-面试题/1.LLM和AI基础/16.rag系统上下文组装.md)
+  * [17 工具调用失败](docs/09-面试题/1.LLM和AI基础/17.工具调用失败.md)
+  * [18 JSON 模式破坏](docs/09-面试题/1.LLM和AI基础/18.JSON破坏模式问题.md)
+  * [19 何时不用 Agent](docs/09-面试题/1.LLM和AI基础/19.反对使用智能体理由.md)
+  * [20 降低延迟手段](docs/09-面试题/1.LLM和AI基础/20.降低延迟和成本方法.md)
 
 **其他**
 
