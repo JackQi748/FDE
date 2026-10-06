@@ -25,3 +25,14 @@
 ### 未改动
 - 上游 `docs/00-*` ~ `docs/10-*` 全部内容与结构原样保留
 - `LICENSE`、`CONTRIBUTING.md`、`.github/workflows/pages.yml` 保持不变（Pages 自动部署 main 分支）
+
+## [2026-10-07] v0.2.0 · 本地预览 + 维护者署名
+
+### 新增
+- `preview.sh` — 零依赖本地预览脚本（`python3 -m http.server`，默认 3000 端口，支持自定义端口）
+- README 新增「本地预览」小节与上方的本地预览入口
+
+### 改进
+- README 顶部 banner 改为指向本仓库内的「支持与联系（JackQi748 维护版）」
+- 「支持与联系」改为 **JackQi748 维护版占位**：不再沿用上游个人隐私收款码，改为引导把自有收款码放入 `pictures/` 后替换路径
+- `_sidebar.md`「其他」新增「本地预览」「支持与联系（维护版）」「CHANGELOG」三个入口

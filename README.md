@@ -10,7 +10,7 @@
 
 > 在线阅读（GitHub Pages）：https://jackqi748.github.io/FDE/  
 > 主读者：有后端/全栈经验、转 FDE。从零基础开始，可参考 [学习路径-零基础](docs/00-导读/学习路径-零基础.md)  
-> 打赏 / 加好友 / 关注公众号 → 见上游原仓库 [VanGong1999/FDE](https://github.com/VanGong1999/FDE) 的 [支持与联系](https://github.com/VanGong1999/FDE#支持与联系)
+> 本地预览 → 见下方 [本地预览](#本地预览)；支持与打赏 → [支持与联系（JackQi748 维护版）](#支持与联系jackqi748-维护版)
 
 ## 你学完能做什么
 
@@ -182,11 +182,26 @@
 
 工程改动：Docsify 站点改为**暗色主题**、补充代码复制/图片缩放插件、侧栏新增第 11 节。详见 [CHANGELOG.md](CHANGELOG.md)。
 
-## 支持与联系
+### 本地预览
 
-本仓库持续维护不易。如果内容对你有帮助，欢迎扫码打赏；也欢迎加微信交流，或关注公众号获取 AI 资讯。
+本仓库是纯静态 Docsify 站点，**无需构建**，改完 markdown 刷新浏览器即可看：
 
-| 支付宝打赏 | 微信打赏 | 添加微信好友 | 公众号（AI 资讯） |
-|:---:|:---:|:---:|:---:|
-| <img src="pictures/支付宝收款.jpg" alt="支付宝打赏" width="180" /> | <img src="pictures/微信收款.jpg" alt="微信打赏" width="180" /> | <img src="pictures/微信好友.JPG" alt="添加微信好友" width="180" /> | <img src="pictures/公众号.jpg" alt="关注公众号" width="180" /> |
-| 支付宝扫码 | 微信扫码 | 扫码加好友 | 扫码关注 |
+```bash
+./preview.sh          # 默认 http://localhost:3000/
+./preview.sh 8080     # 自定义端口
+```
+
+想用官方热重载 CLI 也可以：`npx docsify-cli serve .`（需 Node.js）。
+
+## 支持与联系（JackQi748 维护版）
+
+如果这个 Fork 对你有帮助，欢迎 **Star / Fork / 提 Issue / 提 PR**。
+
+> 打赏与联系方式为**占位**：请把你自己的收款码放进 `pictures/` 目录（如 `pictures/jackqi748-微信.jpg`），
+> 然后把下面表格的图片路径替换成你的文件即可。当前未放置真实收款码，避免沿用上游个人隐私信息。
+
+| 微信打赏 | 支付宝打赏 | 添加微信 |
+|:---:|:---:|:---:|
+| _待补充（放 pictures/jackqi748-微信.jpg）_ | _待补充（放 pictures/jackqi748-支付宝.jpg）_ | _待补充_ |
+
+上游原作者的打赏与公众号，请前往 [VanGong1999/FDE](https://github.com/VanGong1999/FDE#支持与联系) 支持。

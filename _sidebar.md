@@ -163,6 +163,8 @@
 
 **其他**
 
-* [支持与联系](/#/README?id=支持与联系)
+* [本地预览](README.md?id=本地预览)
+* [支持与联系（维护版）](README.md?id=支持与联系jackqi748-维护版)
 * [贡献指南](CONTRIBUTING.md)
+* [CHANGELOG](CHANGELOG.md)
 * [引用总表](references/sources.md)
