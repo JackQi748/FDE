@@ -137,6 +137,20 @@
   * [19 何时不用 Agent](docs/09-面试题/1.LLM和AI基础/19.反对使用智能体理由.md)
   * [20 降低延迟手段](docs/09-面试题/1.LLM和AI基础/20.降低延迟和成本方法.md)
 
+**10 概念课程**（171 概念 · 对照公开十条轨道）
+
+* [总索引](docs/10-概念课程/README.md)
+* [01 LLM 与 GenAI 基础](docs/10-概念课程/01-LLM与GenAI基础/README.md)
+* [02 检索与 Agent](docs/10-概念课程/02-检索与Agent/README.md)
+* [03 评测与 ML 基础](docs/10-概念课程/03-评测与ML基础/README.md)
+* [04 生产系统设计](docs/10-概念课程/04-生产系统设计/README.md)
+* [05 MLOps 与生命周期](docs/10-概念课程/05-MLOps与生命周期/README.md)
+* [06 ML 基础设施与 Serving](docs/10-概念课程/06-ML基础设施与Serving/README.md)
+* [07 数据与 SQL 工程](docs/10-概念课程/07-数据与SQL工程/README.md)
+* [08 AI 安全隐私与治理](docs/10-概念课程/08-AI安全隐私与治理/README.md)
+* [09 编码与工程手艺](docs/10-概念课程/09-编码与工程手艺/README.md)
+* [10 客户面手艺](docs/10-概念课程/10-客户面手艺/README.md)
+
 **其他**
 
 * [支持与联系](/#/README?id=支持与联系)

@@ -17,7 +17,7 @@
 | S07 | The Forward Deployed — Career & Comparisons | https://www.theforwarddeployed.io/ | [FDE 与 SWE 对比](../docs/01-角色认知/FDE与SWE对比.md)、[如何成为 FDE](../docs/01-角色认知/如何成为FDE.md)、[公司差异与薪酬](../docs/04-面试通关/公司差异与薪酬.md) |
 | S08 | The Forward Deployed — Real Deployments | https://www.theforwarddeployed.io/ | [真实部署案例](../docs/06-行业案例/07-Morgan-Stanley-OpenAI.md)（Morgan Stanley / John Deere / Airbus） |
 | S09 | The Forward Deployed — 各公司面试指南（Anthropic / Google / AI 初创） | https://www.theforwarddeployed.io/ | [Anthropic](../docs/04-面试通关/Anthropic-FDE面试指南.md)、[Google](../docs/04-面试通关/Google-FDE面试指南.md)、[AI 初创](../docs/04-面试通关/AI初创公司面试指南.md) |
-| S39 | FDEInterviews — 公开首页 / Start here / 题库主题 / 概念目录 / 课程大纲 | https://fdeinterviews.com/ | 目录级精读与本库对照；[精读 10](../docs/07-外文精读/10-FDEInterviews公开站点地图.md)。不收录题解、课程正文、付费指南 |
+| S39 | FDEInterviews — 公开首页 / Start here / 题库主题 / 概念目录 / 课程大纲 | https://fdeinterviews.com/ | 目录级精读与本库对照；[精读 10](../docs/07-外文精读/10-FDEInterviews公开站点地图.md)。本库原创概念课：[10 概念课程](../docs/10-概念课程/README.md)（171 篇，不转载原站专页） |
 
 > The Forward Deployed（theforwarddeployed.io，2026 年 7 月上线）是独立的 FDE 面试/职业课程站。其来源分级：primary（官方招聘帖/雇主文档/客户案例）、first-person（具名从业者/候选人）、independent（独立报道分析）、commercial guide（商用面试指南/匿名论坛，谨慎使用并标注）。本站 AI Systems、Customer Outcomes、Interview Practice、Real Deployments、Career & Comparisons 各板块均已翻译入库（见 S06–S08、S28–S29）。
 
@@ -59,6 +59,9 @@
 | S36 | Sierra — Natalie Mirror on FDE | https://www.youtube.com/watch?v=Byv311hdoHE | [什么是 FDE §9](../docs/01-角色认知/什么是FDE.md)、[公司图谱 §12](../docs/01-角色认知/公司图谱与岗位差异.md) |
 | S37 | FDE 六阶段工作流讲解 | https://www.youtube.com/watch?v=7jbyXygn9h0 | [DDDR §8](../docs/02-交付方法论/Discover-Design-Deploy-Review.md) |
 | S38 | Juice Shop AI 助手 FDE 实战（Abhishek） | https://www.youtube.com/watch?v=miHREcaScRY | [Take-home §10](../docs/04-面试通关/Take-home与演示.md)、[POC §9](../docs/02-交付方法论/POC到生产.md)、[RAG §9](../docs/03-AI落地/RAG实战精要.md) |
+| S40 | AG-UI Protocol | https://docs.copilotkit.ai/ag-ui/introduction | [AG-UI](../docs/10-概念课程/02-检索与Agent/28-AG-UI协议.md) |
+| S41 | Agent Payments Protocol (AP2) | https://ap2-protocol.org/ap2/specification/ | [AP2](../docs/10-概念课程/02-检索与Agent/29-AP2智能体支付协议.md) |
+| S42 | TypeSafe Jev / System One | https://www.jevtypesafeai.com/decision-model | [System One / Jev](../docs/10-概念课程/01-LLM与GenAI基础/31-System-One决策模型Jev.md) |
 
 ## 本库原创
 
@@ -68,6 +71,8 @@
 
 Awesome FDE 相关中文篇为**翻译整理**，版权与署名归原策展人；本库仅作结构化中文呈现。
 
+`docs/10-概念课程/` 十条轨道共约 171 篇为**原创中文概念课**，主题清单与公开课程对齐，**不转载**外站专页全文。对照见 S39 与 [精读 10](../docs/07-外文精读/10-FDEInterviews公开站点地图.md)。
+
 ---
 
-最后更新：2026-10-05（追加 FDEInterviews 公开站点地图 S39，精读 10）
+最后更新：2026-10-07（追加 10 概念课程与 S40–S42）

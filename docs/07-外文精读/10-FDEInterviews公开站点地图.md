@@ -132,27 +132,21 @@ FDEInterviews 把备面拆成四段：**认角色 → 按课程学工作顺序 �
 
 ### 5. 公开概念轨道（目录级）
 
-原文：[https://fdeinterviews.com/concepts](https://fdeinterviews.com/concepts)。下列是公开目录上的概念名（中文概括）。**专页讲解请在原站读**；本库只保留清单，避免整页复述。
+原文：[https://fdeinterviews.com/concepts](https://fdeinterviews.com/concepts)。下列是公开目录上的概念名（中文概括）。**专页讲解请在原站读**；本库**不转载**原站专页全文。
+
+**本库已写成原创概念课（推荐）：** 打开 [docs/10-概念课程](../10-概念课程/README.md)，十条轨道共 **171** 篇，结构为直觉 → 示例 → 面试取舍 → FDE 现场用法。主题清单与公开目录对齐，正文为本库原创综述。
+
+公开目录速览（便于对照原站）：
 
 **LLM 基础：** Token；上下文窗口；Embedding；Transformer 直觉；Attention；RoPE；温度 / top-p；约束解码；Prompt；思维链；幻觉；Prompt / RAG / 微调；RLHF；奖励模型；Constitutional AI / RLAIF；KV cache；LoRA；DPO；PPO / GRPO；MoE；Scaling laws；推理时计算；多模态；Diffusion；语音；自回归解码；路由与级联；Prompt/语义缓存；企业选模型；结构化输出；System-1 决策模型。
 
-**检索与 Agent：** RAG；向量库；混合检索；切块；重排；ANN；Agent 循环；工具调用；多 Agent；护栏；Agent 记忆；TF-IDF / BM25；窗口预算；MCP；工作流 vs Agent；ReAct；轨迹评测；权限感知 RAG；上下文失效模式；自主性刻度；GraphRAG / 带上下文检索；框架不会替你修的失败；Embedding 版本漂移；索引陈旧；A2A。
+**检索与 Agent：** RAG；向量库；混合检索；切块；重排；ANN；Agent 循环；工具调用；多 Agent；护栏；Agent 记忆；TF-IDF / BM25；窗口预算；MCP；工作流 vs Agent；ReAct；轨迹评测；权限感知 RAG；上下文失效模式；自主性刻度；GraphRAG / 带上下文检索；框架不会替你修的失败；Embedding 版本漂移；索引陈旧；A2A；以及 HyDE、ColBERT、AG-UI、AP2、Text-to-SQL、文档解析等。
 
 **评测与 ML：** 信息论四量；校准；LLM-as-judge；RAG 检索/生成分评；A/B / canary / shadow；Bandit；离线 vs 在线；合成数据；Benchmark 局限；灾难性遗忘；损失函数；激活；Batch/Layer norm；不平衡数据；半监督；凸性；视觉任务阶梯；忠实度 vs 相关性。
 
-**生产系统设计：** Demo 到生产；AI 可观测；延迟；VPC / PrivateLink / SSO / 气隙；熔断与背压；Ontology；Walking skeleton；队列语义；依赖故障降级；Palantir 产品词汇；企业 AI 分层清单。
+**生产系统设计：** Demo 到生产；AI 可观测；延迟；VPC / PrivateLink / SSO / 气隙；熔断与背压；Ontology；Walking skeleton；队列语义；依赖故障降级；Palantir 产品词汇；企业 AI 分层清单；以及成本、幂等、限流、K8s、CAP、部署模型、SLO 等。
 
-**MLOps：** 数据/概念漂移；注册与晋级；模型 CI/CD；监控；特征商店；供应商模型换代。
-
-**推理基建：** VRAM 三块；量化；蒸馏；vLLM/TGI；连续批；PagedAttention；推测解码；3D 并行；GPU 执行模型；按 KV 的租户限流。
-
-**数据与 SQL：** 窗口函数；关系库 vs 特定存储。
-
-**安全治理：** 提示注入；PII；差分隐私；审计轨迹；联邦学习；多租户隔离；机制可解释性；SOC2 / EU AI Act 等；SAML/OIDC；RBAC/ABAC 与 Agent 身份；驻留 vs 主权；IAM 最小权限。
-
-**编码手艺：** 脏文件解析；可测设计；流式与背压；双指针/滑窗；堆与 Top-K；图与拓扑；缓存淘汰；GIL 与并发；数值稳定 softmax。
-
-**客户面手艺：** 需求发现（「聊天机器人」背后的真问题）。
+**MLOps / 推理基建 / 数据 SQL / 安全 / 编码 / 客户面：** 见本库 [10 概念课程](../10-概念课程/README.md) 轨道 05–10 索引；公开站仍可作诊断表，卡口回本库对应篇。
 
 ### 6. Start here 公开「必刷约 100 题」标题（口述清单）
 

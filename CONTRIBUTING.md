@@ -20,6 +20,7 @@
 | `docs/07-外文精读` | 外文精华精读（Phase 2） |
 | `docs/08-工具箱与清单` | Checklist / 工作模板说明 |
 | `docs/09-面试题` | 口述题库；按轨道分子目录（如 `1.LLM和AI基础/`），题干与参考答法原样入库；新增轨道时同步更新该目录 `README.md` 与根 `_sidebar.md` |
+| `docs/10-概念课程` | 十条轨道概念课（约 171 篇）；直觉/示例/取舍/现场用法；与公开课程主题对齐但**原创中文**，禁止 verbatim 搬运外站课文；新增篇目时更新轨道 `README.md`、总索引与 `_sidebar.md` |
 | `docs/templates/` | 可直接复制的模板正文 |
 | `references/sources.md` | 全库引用总表 |
 

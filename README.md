@@ -12,6 +12,7 @@
 - 按 Discover → Design → Deploy → Review 推进客户侧 AI 交付
 - 独立完成 RAG / Agent 方案选型、Eval、生产化清单
 - 按公司类型准备 Decomposition、系统设计、Take-home 与行为面
+- 沿 [10 概念课程](docs/10-概念课程/README.md) 十条轨道补齐约 171 个面试高频概念（从 Token/RAG 到 MLOps、Serving、安全与客户面）
 
 ## 读者分流（先选一条路）
 
@@ -127,6 +128,16 @@
 
 - [题目录](docs/09-面试题/README.md)
 - [1. LLM和AI基础](docs/09-面试题/README.md#1-llm和ai基础)（20 题：上下文窗口、生成循环、Transformer、Token、RAG/微调选型、幻觉、工具调用、延迟等）
+
+### 10 概念课程（171 概念）
+
+对照公开 FDE 课程十条轨道的**原创中文概念课**：直觉 + 工作示例 + 面试取舍 + 现场用法。与 09 分工：概念课建直觉，面试题练口述。
+
+- [总索引](docs/10-概念课程/README.md)
+- [01 LLM 与 GenAI](docs/10-概念课程/01-LLM与GenAI基础/README.md) · [02 检索与 Agent](docs/10-概念课程/02-检索与Agent/README.md) · [03 评测与 ML](docs/10-概念课程/03-评测与ML基础/README.md)
+- [04 生产系统设计](docs/10-概念课程/04-生产系统设计/README.md) · [05 MLOps](docs/10-概念课程/05-MLOps与生命周期/README.md) · [06 Serving](docs/10-概念课程/06-ML基础设施与Serving/README.md)
+- [07 数据与 SQL](docs/10-概念课程/07-数据与SQL工程/README.md) · [08 安全治理](docs/10-概念课程/08-AI安全隐私与治理/README.md)
+- [09 编码手艺](docs/10-概念课程/09-编码与工程手艺/README.md) · [10 客户面手艺](docs/10-概念课程/10-客户面手艺/README.md)
 
 ### 引用总表
 
