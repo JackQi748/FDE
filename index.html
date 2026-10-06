@@ -4,21 +4,99 @@
   <meta charset="UTF-8" />
   <title>FDE 知识库 — AI 前线部署工程师</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="中文 FDE（Forward Deployed Engineer）学习与面试知识库：角色认知、交付方法论、AI 落地、面试通关、行业案例与外文精读。" />
+  <meta name="description" content="中文 FDE（Forward Deployed Engineer）学习与面试知识库：角色认知、交付方法论、AI 落地、面试通关、行业案例、外文精读，以及 2026 迭代增补（部署实战 / 成本优化 / 评测 Harness）。" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
   <style>
     :root {
-      --theme-color: #0f766e;
+      --theme-color: #2dd4bf;
+      --base-font-size: 15px;
+    }
+    html, body {
+      background: #0f1115;
+      color: #d7dde5;
     }
     .app-name-link img { max-height: 28px; }
-    .markdown-section { max-width: 860px; }
-    .sidebar-nav ul li strong { color: #0f766e; }
+    .markdown-section { max-width: 880px; }
+
+    /* 侧边栏暗色化 */
+    .sidebar {
+      background: #14171c;
+      color: #b9c2cf;
+      border-right: 1px solid #232a33;
+    }
+    .sidebar-nav ul li strong,
+    .sidebar-nav a {
+      color: #b9c2cf;
+    }
+    .sidebar-nav a:hover { color: var(--theme-color); }
+    .sidebar-nav ul li.active > a,
+    .sidebar-nav a.active {
+      color: var(--theme-color);
+      border-right: 2px solid var(--theme-color);
+    }
+    .sidebar ul li.group-title,
+    .sidebar-nav ul li.group-title strong {
+      color: #6b7686;
+    }
+
+    /* 内容区暗色化 */
+    .content, .markdown-section {
+      color: #d7dde5;
+      background: #0f1115;
+    }
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3,
+    .markdown-section h4 {
+      color: #f1f5f9;
+      border-bottom-color: #232a33;
+    }
+    .markdown-section a { color: var(--theme-color); }
+    .markdown-section strong { color: #f8fafc; }
+    .markdown-section code {
+      background: #1c222b;
+      color: #e6b85c;
+      border: 1px solid #2a313c;
+    }
+    .markdown-section pre {
+      background: #14171c !important;
+      border: 1px solid #232a33;
+    }
+    .markdown-section pre code { background: transparent; color: #d7dde5; border: none; }
+    .markdown-section table tr { background: #0f1115; }
+    .markdown-section table th,
+    .markdown-section table td {
+      border-color: #232a33;
+    }
+    .markdown-section blockquote {
+      color: #9aa6b6;
+      border-left: 4px solid var(--theme-color);
+      background: #14171c;
+    }
+    .markdown-section hr { border-color: #232a33; }
+
+    /* 分页 / 搜索暗色化 */
+    .pagination-item-title { color: #b9c2cf; }
+    .search input {
+      background: #1c222b;
+      color: #d7dde5;
+      border: 1px solid #2a313c;
+    }
+    .results-panel, .mermaid {
+      background: transparent;
+    }
     .markdown-section .mermaid {
       text-align: center;
       overflow-x: auto;
       margin: 1em 0;
+    }
+    .anchor span { color: var(--theme-color); }
+
+    /* 顶部进度条 */
+    .progress {
+      background: var(--theme-color) !important;
     }
   </style>
 </head>
@@ -28,15 +106,16 @@
   <script src="//cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.min.js"></script>
   <script>
     var mermaidId = 0;
-    mermaid.initialize({ startOnLoad: false, securityLevel: 'loose' });
+    mermaid.initialize({ startOnLoad: false, securityLevel: 'loose', theme: 'dark' });
 
     window.$docsify = {
       name: 'FDE 知识库',
-      repo: 'https://github.com/VanGong1999/FDE',
+      repo: 'https://github.com/JackQi748/FDE',
       loadSidebar: true,
       subMaxLevel: 3,
       auto2top: true,
       homepage: 'README.md',
+      notFoundPage: true,
       search: {
         placeholder: '搜索文档',
         noData: '未找到结果',
@@ -71,10 +150,13 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-docker.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@1.4.4/dist/docsify-katex.js"></script>
 </body>
 </html>

@@ -2,9 +2,15 @@
 
 中文 **AI 前线部署工程师（Forward Deployed Engineer）** 学习与面试资料库：从角色认知、交付方法论、企业 AI 落地，到面试通关与可复制工作模板。
 
-> 在线阅读（GitHub Pages）：https://vangong1999.github.io/FDE/  
+> [!NOTE]
+> **本仓库是 [VanGong1999/FDE](https://github.com/VanGong1999/FDE) 的 Fork + 迭代版**（维护者：JackQi748）。
+> 上游负责体系与广度（00–10 共 170+ 篇），本仓库在此基础上**增补了「能直接上手跑」的工程内容**——
+> 见新增的 [11 迭代增补](docs/11-迭代增补/README.md)：2026 模型格局、vLLM/SGLang 部署实战、成本优化、Agent 协议、评测 Harness、30 天路线图。
+> 上游原创内容版权归原作者，本目录内容为 JackQi748 2026 原创增补。
+
+> 在线阅读（GitHub Pages）：https://jackqi748.github.io/FDE/  
 > 主读者：有后端/全栈经验、转 FDE。从零基础开始，可参考 [学习路径-零基础](docs/00-导读/学习路径-零基础.md)  
-> 打赏 / 加好友 / 关注公众号 → [支持与联系](#支持与联系)
+> 打赏 / 加好友 / 关注公众号 → 见上游原仓库 [VanGong1999/FDE](https://github.com/VanGong1999/FDE) 的 [支持与联系](https://github.com/VanGong1999/FDE#支持与联系)
 
 ## 你学完能做什么
 
@@ -160,6 +166,21 @@
 | Phase 1 | 已完成 | 骨架 + 四大核心必读 + 工具箱模板 |
 | Phase 2 | 已完成 | 行业案例深写、外文精读库、能力补强深水区 |
 | Awesome FDE 入库 | 已完成 | 英文课程拆分翻译并归入 01–08 |
+
+## 本 Fork 的迭代内容（JackQi748 · 2026）
+
+在保留上游全部 00–10 内容的基础上，本仓库新增 [11 迭代增补](docs/11-迭代增补/README.md) 目录，补「落地与时效」短板：
+
+| 新增文件 | 价值 |
+|----------|------|
+| [2026 模型与平台格局](docs/11-迭代增补/2026-模型与平台格局.md) | 当下选型的 Pareto 决策框架 |
+| [推理部署实战：vLLM 与 SGLang](docs/11-迭代增补/推理部署实战-vLLM与SGLang.md) | 一行起服务 + docker-compose + 压测指标 |
+| [成本优化手册](docs/11-迭代增补/成本优化手册.md) | 路由 / 缓存 / 量化，把账单打下来 |
+| [Agent 协议全景 2026](docs/11-迭代增补/Agent协议全景2026.md) | MCP / A2A / AG-UI 怎么选怎么接 |
+| [评测 Harness 速成](docs/11-迭代增补/评测Harness速成.md) | 10 分钟搭可重复 Eval，含代码 |
+| [30 天 FDE 行动路线图](docs/11-迭代增补/30天行动路线图.md) | 把全库排进 30 天可执行计划 |
+
+工程改动：Docsify 站点改为**暗色主题**、补充代码复制/图片缩放插件、侧栏新增第 11 节。详见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 支持与联系
 
